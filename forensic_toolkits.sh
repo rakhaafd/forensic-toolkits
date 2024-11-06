@@ -33,4 +33,10 @@ prompt_install "stegsolve" "sudo apt install -y default-jre && wget http://www.c
 # stegseek
 prompt_install "stegseek" "sudo apt install -y stegseek"
 
+# zbarimg
+prompt_install "zbarimg" "sudo apt install -y zbar-tools"
+
+# foremost
+prompt_install "foremost" "sudo apt install -y foremost"
+
 echo "All selected tools have been installed."
