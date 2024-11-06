@@ -20,5 +20,5 @@ Repo ini adalah kumpulan script untuk instalasi tools yang digunakan dalam kateg
 Clone repository ini ke mesin lokal Anda dengan perintah:
 
 ```bash
-git clone https://github.com/username/repository-name.git
-cd repository-name
+git clone https://github.com/rakhaafd/forensic-toolkits.git
+cd forensic-toolkits
