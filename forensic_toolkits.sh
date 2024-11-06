@@ -21,6 +21,12 @@ prompt_install() {
     fi
 }
 
+# exiftool
+prompt_install "exiftool" "sudo apt install -y exiftool"
+
+# strings
+prompt_install "strings" "sudo apt install -y binutils"
+
 # zsteg
 prompt_install "zsteg" "sudo apt install -y ruby-full && sudo gem install zsteg"
 
@@ -38,5 +44,7 @@ prompt_install "zbarimg" "sudo apt install -y zbar-tools"
 
 # foremost
 prompt_install "foremost" "sudo apt install -y foremost"
+
+
 
 echo "All selected tools have been installed."
