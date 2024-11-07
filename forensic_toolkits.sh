@@ -52,7 +52,7 @@ prompt_install "foremost" "sudo apt install -y foremost"
 prompt_install "john" "sudo apt install -y john"
 
 # sstv
-prompt_install "sstv" "git clone https://github.com/colaclanth/sstv.git && cd sstv && python3 setup.py install"
+prompt_install "sstv" "git clone https://github.com/colaclanth/sstv.git && cd sstv && sudo python3 setup.py install"
 
 # ffmpeg
 prompt_install "ffmpeg" "sudo apt install -y ffmpeg"
