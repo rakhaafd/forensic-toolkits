@@ -15,17 +15,9 @@ Repo ini adalah kumpulan script untuk instalasi tools yang digunakan dalam kateg
 
 ## Instalasi
 
-### 1. Clone Repository
-
-Clone repository ini ke mesin lokal Anda dengan perintah:
-
 ```bash
 git clone https://github.com/rakhaafd/forensic-toolkits.git
 cd forensic-toolkits
-
-### 2. Install Requirements
-
-Install requirements.txt sebelum menginstall tools dengan perintah:
-
-```bash
 pip3 install -r requirements.txt
+chmod +x forensic_toolkits.sh
+./forensic_toolkits.sh
