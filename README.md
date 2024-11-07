@@ -18,6 +18,5 @@ Repo ini adalah kumpulan script untuk instalasi tools yang digunakan dalam kateg
 ```bash
 git clone https://github.com/rakhaafd/forensic-toolkits.git
 cd forensic-toolkits
-pip3 install -r requirements.txt
 chmod +x forensic_toolkits.sh
 ./forensic_toolkits.sh
