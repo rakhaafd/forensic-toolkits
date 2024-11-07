@@ -57,6 +57,8 @@ prompt_install "sstv" "sudo apt install python3-setuptools -y && git clone https
 # ffmpeg
 prompt_install "ffmpeg" "sudo apt install -y ffmpeg"
 
+# audacity
+prompt_install "audacity" "sudo apt install -y audacity"
 
 
 echo "All selected tools have been installed."
