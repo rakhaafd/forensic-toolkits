@@ -27,6 +27,9 @@ prompt_install "exiftool" "sudo apt install -y exiftool"
 # strings
 prompt_install "strings" "sudo apt install -y binutils"
 
+# binwalk
+prompt_install "binwalk" "sudo apt install -y binwalk"
+
 # zsteg
 prompt_install "zsteg" "sudo apt install -y ruby-full && sudo gem install zsteg"
 
@@ -44,6 +47,15 @@ prompt_install "zbarimg" "sudo apt install -y zbar-tools"
 
 # foremost
 prompt_install "foremost" "sudo apt install -y foremost"
+
+# john
+prompt_install "john" "sudo apt install -y john"
+
+# sstv
+prompt_install "sstv" "git clone https://github.com/colaclanth/sstv.git && cd sstv && python3 setup.py install"
+
+# ffmpeg
+prompt_install "ffmpeg" "sudo apt install -y ffmpeg"
 
 
 
