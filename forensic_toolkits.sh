@@ -45,7 +45,7 @@ show_tools_usage() {
 # Fungsi untuk memulai instalasi
 start_install() {
     echo ""
-    echo "Memulai instalasi..."
+    echo "Starting Installation..."
     
     install_tool() {
         echo "Installing $1..."
@@ -103,19 +103,19 @@ start_install() {
 
 # Menampilkan menu utama
 show_main_menu() {
-    echo "Pilih opsi berikut:"
+    echo "Option:"
     echo ""
     echo "1. Start Install"
     echo "2. See All Tools"
     echo "3. Exit"
     echo ""
-    read -p "Masukkan pilihan (1/2/3): " option
+    read -p "Enter Option (1/2/3): " option
 
     case $option in
         1) start_install ;;
         2) show_tools_usage ;;
         3) echo "Exiting..."; exit 0 ;;
-        *) echo "Pilihan tidak valid. Exiting..."; exit 1 ;;
+        *) echo "Invalid option. Exiting..."; exit 1 ;;
     esac
 }
 
