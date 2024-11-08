@@ -97,12 +97,15 @@ start_install() {
     # imgconceal
     prompt_install "imgconceal" "cd ~ && git clone https://github.com/tbpaolini/imgconceal/releases/download/v1.0.4/imgconceal && chmod +x imgconceal"
 
+    echo ""
     echo "All selected tools have been installed."
     show_main_menu
 }
 
 # Menampilkan menu utama
+
 show_main_menu() {
+    echo ""
     echo "Option:"
     echo ""
     echo "1. Start Install"
