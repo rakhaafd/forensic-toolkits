@@ -1,5 +1,11 @@
 # CTF Forensic Tools
 
+
+
+![image](https://github.com/user-attachments/assets/e64fe54b-09c4-42a5-9fa9-22ee6d3d8321)
+
+
+
 Repo ini adalah kumpulan script untuk instalasi tools yang digunakan dalam kategori forensic pada kompetisi Capture The Flag (CTF). Tools yang ada bertujuan untuk membantu analisis forensik digital, seperti memeriksa file, metadata, dan data yang tersembunyi.
 
 ## Fitur Utama
