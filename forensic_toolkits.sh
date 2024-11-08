@@ -36,11 +36,14 @@ prompt_install "zsteg" "sudo apt install -y ruby-full && sudo gem install zsteg"
 # steghide
 prompt_install "steghide" "sudo apt install -y steghide"
 
+# stegcracker
+prompt_install "stegcracker" "sudo pip3 install stegcracker"
+
 # stegsolve
 prompt_install "stegsolve" "sudo apt install -y default-jre && wget http://www.caesum.com/handbook/Stegsolve.jar -O stegsolve.jar && chmod +x stegsolve.jar && mkdir -p ~/bin && mv stegsolve.jar ~/bin/ && echo \"alias stegsolve='cd ~/bin && java -jar stegsolve.jar'\" >> ~/.bashrc && source ~/.bashrc"
 
 # stegseek
-prompt_install "stegseek" "sudo apt install -y stegseek"
+prompt_install "stegseek" "sudo apt install wget && wget https://github.com/RickdeJager/stegseek/releases/download/v0.6/stegseek_0.6-1.deb && sudo dpkg -i stegseek_0.6-1.deb"
 
 # zbarimg
 prompt_install "zbarimg" "sudo apt install -y zbar-tools"
