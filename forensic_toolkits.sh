@@ -61,6 +61,6 @@ prompt_install "ffmpeg" "sudo apt install -y ffmpeg"
 prompt_install "audacity" "sudo apt install -y audacity"
 
 # imgconceal
-prompt_install "imgconceal" "cd ~ && git clone https://github.com/tbpaolini/imgconceal/releases/download/v1.0.4/imgconceal && chmod +x imgconceal && echo "alias imgconceal='cd ~ && ./imgconceal >> ~/.bashrc && source ~/.bashrc'"
+prompt_install "imgconceal" "cd ~ && git clone https://github.com/tbpaolini/imgconceal/releases/download/v1.0.4/imgconceal && chmod +x imgconceal"
 
 echo "All selected tools have been installed."
