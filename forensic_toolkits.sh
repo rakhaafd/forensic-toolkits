@@ -95,7 +95,7 @@ start_install() {
     # audacity
     prompt_install "audacity" "sudo apt install -y audacity"
     # imgconceal
-    prompt_install "imgconceal" "wget https://github.com/tbpaolini/imgconceal/releases/download/v1.0.4/imgconceal"
+    prompt_install "imgconceal" "cd ~ && wget https://github.com/tbpaolini/imgconceal/releases/download/v1.0.4/imgconceal && chmod +x imgconceal"
 
     echo ""
     echo "All selected tools have been installed."
