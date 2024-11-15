@@ -11,13 +11,13 @@ Repo ini adalah kumpulan script untuk instalasi tools yang digunakan dalam kateg
 ## Fitur Utama
 
 - **Instalasi otomatis dengan konfirmasi:** Setiap tool memiliki opsi konfirmasi (`y/n`) untuk melanjutkan instalasi, memberikan kontrol penuh kepada pengguna.
+- **Melihat daftar tools beserta deskripsi singkat:** Program ini juga memiliki fitur untuk melihat tools apa saja yang terdaftar beserta deskripsi singkat mengenai kegunaan tools tersebut.
 - **Dukungan berbagai tools:** Tools yang terintegrasi mencakup berbagai jenis analisis forensik, termasuk pemeriksaan gambar, metadata, pemulihan data, dan lainnya.
 - **Dirancang untuk CTF:** Tools ini telah dipilih dan dikustomisasi untuk digunakan dalam lingkungan CTF.
 
 ## Persyaratan
 
-- Sistem operasi berbasis Linux (dapat digunakan pada WSL untuk pengguna Windows).
-- Python dan `pip` untuk menginstal dependencies yang tercantum di `requirements.txt`.
+- Sistem operasi berbasis Linux Ubuntu/Debian (dapat digunakan pada WSL untuk pengguna Windows).
 
 ## Instalasi
 
