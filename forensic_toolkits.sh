@@ -79,9 +79,9 @@ start_install() {
     # stegcracker
     prompt_install "stegcracker" "sudo pip3 install stegcracker"
     # stegsolve
-    prompt_install "stegsolve" "sudo apt install -y default-jre && wget http://www.caesum.com/handbook/Stegsolve.jar -O stegsolve.jar && chmod +x stegsolve.jar && mkdir -p ~/bin && mv stegsolve.jar ~/bin"
+    prompt_install "stegsolve" "sudo apt install -y default-jre && cd ~ && wget http://www.caesum.com/handbook/Stegsolve.jar"
     # stegseek
-    prompt_install "stegseek" "sudo apt install wget && wget https://github.com/RickdeJager/stegseek/releases/download/v0.6/stegseek_0.6-1.deb && sudo dpkg -i stegseek_0.6-1.deb"
+    prompt_install "stegseek" "wget https://github.com/RickdeJager/stegseek/releases/download/v0.6/stegseek_0.6-1.deb && sudo dpkg -i stegseek_0.6-1.deb"
     # zbarimg
     prompt_install "zbarimg" "sudo apt install -y zbar-tools"
     # foremost
@@ -95,7 +95,7 @@ start_install() {
     # audacity
     prompt_install "audacity" "sudo apt install -y audacity"
     # imgconceal
-    prompt_install "imgconceal" "cd ~ && wget https://github.com/tbpaolini/imgconceal/releases/download/v1.0.4/imgconceal && chmod +x imgconceal"
+    prompt_install "imgconceal" "cd ~ && wget https://github.com/tbpaolini/imgconceal/releases/download/v1.0.4/imgconceal"
 
     echo ""
     echo "All selected tools have been installed."

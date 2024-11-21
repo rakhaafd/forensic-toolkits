@@ -19,6 +19,10 @@ Repo ini adalah kumpulan script untuk instalasi tools yang digunakan dalam kateg
 
 - Sistem operasi berbasis Linux Ubuntu/Debian (dapat digunakan pada WSL untuk pengguna Windows).
 
+## Note📝
+
+- Kalau terjadi error saat penginstalannya, lakukan ```cat forensic_toolkits.sh``` kemudian cari tools apa yang ingin kalian install, dan copy paste command nya di terminal.
+
 ## Instalasi
 
 ```bash
