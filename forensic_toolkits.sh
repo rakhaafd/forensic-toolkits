@@ -77,7 +77,7 @@ start_install() {
     # steghide
     prompt_install "steghide" "sudo apt install -y steghide"
     # stegcracker
-    prompt_install "stegcracker" "sudo pip3 install stegcracker"
+    prompt_install "stegcracker" "pip install stegcracker --break-system-packages"
     # stegsolve
     prompt_install "stegsolve" "sudo apt install -y default-jre && cd ~ && wget http://www.caesum.com/handbook/Stegsolve.jar"
     # stegseek
